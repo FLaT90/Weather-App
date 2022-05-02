@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../img/gradient.png"); 
+    background-position: center;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fondo-imagen{
+    border-radius: 35px 35px 0 0;
+}
+
+#card{
+    position: relative;
+}
+
+header{
+    color: #252388;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-align: center;
+    position: absolute;
+    top : 35px;
+    left: 120px;
+}
+
+.estado{
+    color: white;
+    background-color: #5b3fc8;
+    font-size: 18px;
+    font-weight: 500;
+    position: absolute;
+    bottom: 160px;
+    left: 0;
+    padding: 5px 20px 5px 20px;
+    border-radius: 0 20px 20px 0;
+}
+
+.fecha{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.grado{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.descripcion{
+    background-color: white;
+    color: #6a6a6a;
+    font-weight: 300;
+    border-radius: 0 0 20px 20px;
+}
+
+.datos{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+}
+
+.datos-izquierda{
+    display: flex;
+    align-items: center;
+}
